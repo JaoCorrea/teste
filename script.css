@@ -1,0 +1,52 @@
+body{
+    background-color: #4BB2F2;
+    display: grid;
+    grid-template-areas: 
+    " cab cab cab"
+    "pri pri pri"
+    "foo foo foo";
+    
+}
+header{
+    grid-area: cab;
+    background-color: #4BB2F2;
+    color: black;
+    border: black solid 10px;
+    position: relative;
+}
+main{
+    grid-area: pri;
+    background-color: #4BB2F2;
+    color: black;
+    border: black solid 10px;
+    position: relative;
+    min-height: 100vh;
+}
+footer{
+    grid-area: foo;
+    background-color: #4BB2F2;
+    color: black;
+    border: black solid 10px;
+    position: relative;
+}
+@media only screen and (max-width: 200px) {
+    body{
+        grid-template-areas: 
+        "cab "
+        "pri "
+        "foo ";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    section{
+        display: flex;
+    }
+    
+    header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
+}
