@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: rgb(189, 250, 250);
     display: grid;
     grid-template-areas: 
     " cab cab cab"
@@ -31,7 +31,6 @@ footer{
     color: black;
     border: black solid 10px;
     position: relative;
-    text-align: center;
 }
 @media only screen and (max-width: 200px) {
     body{
@@ -61,19 +60,5 @@ header img{
 width: 300px;
 }
 main img{
-    width: 300px;
-}
-footer img{
-    width: 250px;
-}
-.texto nav{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-.texto li{
-    display: inline;
-}
-.texto img{
-    width: 75px;
+    width: 400px;
 }
