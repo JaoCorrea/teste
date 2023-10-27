@@ -8,6 +8,15 @@ function inclui_nome() {
         inclui_nome();
     }
 }
+/*A função inclui_nome exibe uma caixa de diálogo de prompt que solicita ao usuário inserir seu nome.
+
+Ela verifica se o usuário inseriu um nome (ou seja, nome_variavel não é vazio).
+
+Se um nome for inserido, ele atualiza o conteúdo de um elemento HTML com o ID "marcacao_nome" para mostrar o nome inserido.
+
+Se o usuário não inserir um nome, exibe um alerta informando que o nome não foi atribuído e chama a própria função novamente para solicitar o nome até que um nome seja fornecido.
+
+*/
 
 function funcao_resposta(){
 
@@ -121,3 +130,10 @@ function funcao_resposta(){
     }
 
 }
+/*A função funcao_resposta é chamada para processar as respostas a um questionário com 10 perguntas.
+
+Para cada pergunta, ela verifica se a resposta correta foi selecionada e atualiza a interface de acordo.
+
+Ela mantém um contador para contar o número de respostas corretas.
+
+No final, exibe o número de respostas corretas e uma mensagem de parabéns se todas as perguntas foram respondidas. Se alguma pergunta não foi respondida, exibe um alerta.*/

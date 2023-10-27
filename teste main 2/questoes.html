@@ -10,23 +10,37 @@
     <header>
         
             <h1>Lei e Newton Futebol</h1>
+<!-- Título principal exibido no cabeçalho da página. -->
+
             <script type="text/javascript">
               function  mudar(objeto, imagem)
               {lei.src = imagem;}
               
            </script>
+
+<!-- Um script JavaScript que parece alterar uma imagem quando o mouse passa sobre ela. 
+  Porém, o elemento "lei" não está definido neste trecho de código. Pode haver um erro. -->
+
+
            <a onmouseover="mudar('lei' , 'imagens/bolacanva.jpg')"
            onmouseout="mudar('lei' , 'imagens/leicanva.jpg')">
            <img src="imagens/leicanva.jpg" alt="" id="lei"></a>
            <div class="texto">
+
+            <!-- Uma imagem com o ID "lei" que pode ser alterada pela função JavaScript. -->
+
             <nav>
               <ul>
-                <li ><a href="teste.html"><img src="imagens/questionario.png" alt=""></a></l1>      </ul>
+                <li ><a href="teste.html"><img src="imagens/questionario.png" alt=""></a></l1>  
+                <!-- Link de navegação para outra página (teste.html) com uma imagem associada. -->
+                </ul>
             </nav>
           </div> 
           
-          
+        
     </header>
+
+<!-- Fim do cabeçalho da página. -->
 
     <script src="java.js"></script>
 
@@ -34,7 +48,8 @@
 
     <main>
 
-    
+    <!-- Início do formulário de perguntas e respostas. -->
+
     <form>
         <h3> 1: Qual das Leis de Newton descreve a relação entre a força aplicada a um objeto, sua massa e sua aceleração?</h3>
         <input type="radio" name="quest_1" value="errada">a) Primeira Lei de Newton <br>
@@ -108,6 +123,7 @@
 
         <p id="quantos_acertos"></p>
             <button type="button" onclick="funcao_resposta()">Responder</button>
+             <!-- Parágrafo para mostrar quantas respostas estão corretas após o teste. -->
     </form>
 
     </main>
