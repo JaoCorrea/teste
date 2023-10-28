@@ -40,7 +40,7 @@ footer{
     color: black;
     border: black solid 10px;
     position: relative;
-    text-align: center;
+   
 }
 
 /*A seção do elemento <footer> segue o mesmo padrão dos elementos anteriores, definindo uma cor de fundo azul, texto preto, uma borda preta de 10px, posição relativa e texto centralizado.
@@ -126,7 +126,7 @@ footer .leis{
     color:black;
 }
 footer .leis ul{
-    width: auto;
+    width: 40%;
 }
 footer .leis h3{
     margin-bottom: 16px;
@@ -135,7 +135,7 @@ footer .leis h3{
 footer .leis .redessociais img{
     margin-right: 10px;
 }
-footer .leis ul > p{
+footer .leis ul  p{
 margin-bottom: 40px;
 }
 footer img{
@@ -143,4 +143,23 @@ footer img{
 }
 footer h3{
     color: black;
+}
+.btn{
+    padding: 10px 8px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: white solid;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: gray;
+    transition: bagckground 1s;
+
+}
+.questoes{
+    min-height: 400vh;
 }

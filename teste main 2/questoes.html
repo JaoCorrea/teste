@@ -47,9 +47,11 @@
       <p id="marcacao_nome"></p> 
 
     <main>
+      <div class="questoes">
 
     <!-- Início do formulário de perguntas e respostas. -->
-
+      <div class="container">
+        <div class="box">
     <form>
         <h3> 1: Qual das Leis de Newton descreve a relação entre a força aplicada a um objeto, sua massa e sua aceleração?</h3>
         <input type="radio" name="quest_1" value="errada">a) Primeira Lei de Newton <br>
@@ -122,14 +124,17 @@
         <p id="resp_correta_10" class="verde"></p><p id="resp_errada_10" class="vermelho"></p>
 
         <p id="quantos_acertos"></p>
+        <div class="btn">
             <button type="button" onclick="funcao_resposta()">Responder</button>
+        </div>
              <!-- Parágrafo para mostrar quantas respostas estão corretas após o teste. -->
     </form>
-
+  </div>
+   </div>
+    </div>
     </main>
 
     <footer>
-        
     </footer>
 </body>
 </html>
