@@ -12,7 +12,7 @@ header{
     grid-area: cab;
     background-color: #c0c0c0;
     color: black;
-    border: black solid 10px;
+    border: black solid 5px;
     position: relative;
     text-align: center;
 }
@@ -24,7 +24,7 @@ main{
     grid-area: pri;
     background-color: #c0c0c0;
     color: black;
-    border: black solid 10px;
+    border: black solid 5px;
     position: relative;
     min-height: 370vh;
     font-size: 20px;
@@ -38,7 +38,7 @@ footer{
     grid-area: foo;
     background-color: #c0c0c0;
     color: black;
-    border: black solid 10px;
+    border: black solid 5px;
     position: relative;
    
 }
