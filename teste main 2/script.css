@@ -10,7 +10,7 @@ body{
 }
 header{
     grid-area: cab;
-    background-color: #c0c0c0;
+    background-color: #f7f7f7;
     color: black;
     border: black solid 5px;
     position: relative;
@@ -22,13 +22,14 @@ header{
 
 main{
     grid-area: pri;
-    background-color: #c0c0c0;
+    background-color: #f7f7f7;
     color: black;
     border: black solid 5px;
     position: relative;
     min-height: 370vh;
     font-size: 20px;
     text-align: center;
+    min-width: 10vh;
 }
 
 /*A seção do elemento <main> é semelhante à do cabeçalho, com uma cor de fundo azul, texto preto, uma borda preta de 10px, posição relativa, altura mínima de 100% da altura da janela (viewport height - vh), tamanho de fonte de 20px e texto centralizado.
@@ -36,7 +37,7 @@ main{
 
 footer{
     grid-area: foo;
-    background-color: #c0c0c0;
+    background-color: #f7f7f7;
     color: black;
     border: black solid 5px;
     position: relative;
