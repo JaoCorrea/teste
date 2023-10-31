@@ -1,0 +1,166 @@
+body{
+    background-color:#808080;
+    display: grid;
+    grid-template-areas: 
+    " cab cab cab"
+    "pri pri pri"
+    "foo foo foo";
+    /*Esta parte do código define estilos específicos para telas com largura máxima de 200px (provavelmente dispositivos móveis de largura estreita). O layout de grid é reconfigurado para ter apenas uma coluna e três linhas, e os elementos de cabeçalho e rodapé são ocultados.*/
+    
+}
+header{
+    grid-area: cab;
+    background-color: #f7f7f7;
+    color: black;
+    border: black solid 5px;
+    position: relative;
+    text-align: center;
+}
+
+/*Aqui, o estilo do elemento <header> está sendo definido. O cabeçalho receberá uma cor de fundo azul mais clara, terá texto preto, uma borda preta de 10px, posição relativa e texto centralizado.
+*/
+
+main{
+    grid-area: pri;
+    background-color: #f7f7f7;
+    color: black;
+    border: black solid 5px;
+    position: relative;
+    min-height: 370vh;
+    font-size: 20px;
+    text-align: center;
+    min-width: 10vh;
+}
+
+/*A seção do elemento <main> é semelhante à do cabeçalho, com uma cor de fundo azul, texto preto, uma borda preta de 10px, posição relativa, altura mínima de 100% da altura da janela (viewport height - vh), tamanho de fonte de 20px e texto centralizado.
+*/
+
+footer{
+    grid-area: foo;
+    background-color: #f7f7f7;
+    color: black;
+    border: black solid 5px;
+    position: relative;
+   
+}
+
+/*A seção do elemento <footer> segue o mesmo padrão dos elementos anteriores, definindo uma cor de fundo azul, texto preto, uma borda preta de 10px, posição relativa e texto centralizado.
+
+*/
+
+@media only screen and (max-width: 200px) {
+    body{
+        grid-template-areas: 
+        "cab "
+        "pri "
+        "foo ";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    section{
+        display: flex;
+    }
+    #c0c0c0
+    header{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
+    
+}
+
+/*Esta parte do código define estilos específicos para telas com largura máxima de 200px (provavelmente dispositivos móveis de largura estreita). O layout de grid é reconfigurado para ter apenas uma coluna e três linhas, e os elementos de cabeçalho e rodapé são ocultados.*/
+
+header img{
+width: 300px;
+}
+main img{
+    width: 300px;
+}
+footer img{
+    width: 250px;
+}
+
+/*Essas regras definem o tamanho das imagens dentro dos elementos <header>, <main> e `<footer>.*/
+
+.texto nav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.texto li{
+    display: inline;
+}
+.texto img{
+    width: 75px;
+}
+
+/*Aqui, estilos estão sendo aplicados a elementos com as classes .texto, .nav, .li e .img. Eles definem a posição absoluta do elemento .nav no canto superior direito, tornam os elementos .li em linha e definem um tamanho de 75px para elementos .img.*/
+
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
+}
+
+/*estes codigos mudam a cor da letra dependendo da sua resposta.*/
+.container{
+width: 100px;
+height: 100vh;
+}
+.box{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+footer .leis{
+    display: flex;
+    color:black;
+}
+footer .leis ul{
+    width: 40%;
+}
+footer .leis h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+footer .leis .redessociais img{
+    margin-right: 10px;
+}
+footer .leis ul  p{
+margin-bottom: 40px;
+}
+footer img{
+    width: 30px;
+}
+footer h3{
+    color: black;
+}
+.btn{
+    padding: 10px 8px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: white solid;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: gray;
+    transition: bagckground 1s;
+
+}
+.questoes{
+    min-height: 400vh;
+}
