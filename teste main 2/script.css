@@ -150,8 +150,8 @@ footer h3{
     width: 80px;
     color: white;
     background-color: black;
-    border: white solid;
-    border-radius: 10px;
+    /*0border:#bb1252;*/
+    border-radius: #bb1252 10px;
     text-align: center;
     user-select: none;
     cursor: pointer;
@@ -167,8 +167,9 @@ footer h3{
 .calculadorasoma{
     padding: 5px;
     border: black 2px;
-    background-color: gray;
+    background-color: rgb(161, 161, 161);
     border-radius: 5px;
+    
 }
 
 /* botao de calcular das calculadoras */
@@ -176,9 +177,9 @@ footer h3{
     width: 100px;
     height: 30px;
     font-size: 15px;
-    color: #399fff;
-    background-color: white;
-    border: 1px solid #349dff;
+    color: #000000;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid #bb1252;
 }
 /* botao */
 .botaomaismenos input{
@@ -187,7 +188,7 @@ footer h3{
     font-size: 15px;
     color: gray;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #bb1252;
 }
 /* fim dos elementos do main */
 

@@ -130,6 +130,8 @@ function funcao_resposta(){
     }
 
 }
+
+
 /*A função funcao_resposta é chamada para processar as respostas a um questionário com 10 perguntas.
 
 Para cada pergunta, ela verifica se a resposta correta foi selecionada e atualiza a interface de acordo.
@@ -137,3 +139,57 @@ Para cada pergunta, ela verifica se a resposta correta foi selecionada e atualiz
 Ela mantém um contador para contar o número de respostas corretas.
 
 No final, exibe o número de respostas corretas e uma mensagem de parabéns se todas as perguntas foram respondidas. Se alguma pergunta não foi respondida, exibe um alerta.*/
+
+
+// Funções para realizar cálculos de soma, subtração, multiplicação e divisão
+function adicao(){
+    gremiotri.value = parseInt(joao1.value) + parseInt(meza2.value);
+}
+function diminuir(){
+    gremiotri.value = parseInt(joao1.value) - parseInt(meza2.value);
+}
+function multiplicacao(){
+    gremiotri.value = parseInt(joao1.value) * parseInt(meza2.value);
+}
+function divisao(){
+    // Verifica se o divisor é zero
+    if(meza2.value == 0){
+        alert("Não é possível dividir por zero, CABAÇO");
+        joao1.value = 0;
+    }
+    else{
+        gremiotri.value = parseInt(joao1.value) / parseInt(meza2.value);
+    }
+}
+// Função para calcular a aceleração
+function calcular(){
+    if(massa.value == 0){
+        alert("Não é possível dividir por zero.");
+        forca.value = 0;
+    }
+    else{
+        aceleracao.value = parseInt(forca.value) / parseInt(massa.value);
+    }
+    
+}
+// Funções para calcular a variação de velocidade e a variação de tempo
+function variacaov(){
+    deltavelocidade.value = parseInt(deltav.value) - parseInt(deltav2.value);
+}
+function variacaot(){
+    deltatempo.value = parseInt(deltat.value) - parseInt(deltat2.value);
+}
+// Função para calcular a aceleração com base em cálculos anteriores
+function calcularaceleracao(){
+    if(deltataceleracao.value == 0){
+        alert("Não é possível dividir por zero.");
+        deltavaceleracao.value = 0;
+    }
+    else{
+        aceleracaodeltavt.value = parseInt(deltavaceleracao.value) / parseInt(deltataceleracao.value);
+    }
+}
+// Função para calcular a força resultante
+function forcar(){
+    forcaresultante.value = parseInt(massadafr.value) * parseInt(aceleracaodafr.value);
+}
