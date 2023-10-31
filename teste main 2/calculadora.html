@@ -8,6 +8,7 @@
     <title>Calculadora</title>
 </head>
 <body>
+    <body id="bodycalculadora"><!-- Início do corpo da página com um identificador "bodyindex" -->
     <header>
         
         <h2>Calculadora</h2>
@@ -28,7 +29,80 @@
     
 </header>
     <main>
-        <h1>Calculadora</h1>
+        <main class="main" id="main4"><!-- Seção principal da página com uma classe "main" -->
+            <div class="elementomae">
+                <div class="calculadorasoma"><!-- Primeira calculadora para soma e subtração -->
+                    <h1>Calculadora</h1><br><br>
+                     Valor 1 = <input type="number" id="aram1" value=""><br><br>
+                     Valor 2 = <input type="number" id="aram2" value=""><br><br>
+                     <!-- Botões para operações -->
+                     <div class="botaomaismenos">
+                        <input type="button" value="+" onclick="josefa()"><!-- Botão de soma -->
+                        <input type="button" value="-" onclick="diminuir()"><!-- Botão de subtração -->
+                        <input type="button" value="x" onclick="multiplicacao()"><!-- Botão de multiplicação -->
+                        <input type="button" value="÷" onclick="divisao()"><br><br><!-- Botão de divisão -->
+                     </div>
+                     Resultado = <input type="text" id="fernanda" value=""><br><br><br> 
+                 </div><br>
+                 <!-- Segunda calculadora para cálculo do módulo da aceleração -->
+                 <div class="calculadorasoma">
+                    <h1>Cálculo do Módulo da Aceleração</h1><br><br>
+                    <p>Fórmula: </p><br><br><div class="moduloaceleracao"><img src="img/foto2.png" alt="formula"><br><br></div><br><br>
+                    |F| = <input type="number" id="forca" value=""><br><br>
+                    m = <input type="number" id="massa" value=""><br><br>
+                    <div class="botaocalcular"> <!-- Botão para calcular -->
+                        <input type="button" value="Calcular" onclick="calcular()"><br><br>
+                    </div>
+                    |a| = <input type="text" id="aceleracao" value=""><br><br><br>
+                 </div><br>
+                  <!-- Terceira seção não contém cálculos, apenas informações -->
+                 <div class="calculadorasoma">
+                 <div class="calculadorasoma"><!-- Quarta calculadora para cálculo da variação de velocidade -->
+                    <h3>Cálculo da Variação da Velocidade</h3><br><br>
+                    Vf = <input type="number" id="deltav" value=""><br><br>
+                    Vi = <input type="number" id="deltav2" value=""><br><br>
+                    <div class="botaocalcular">
+                        <input type="button" value="Calcular" onclick="variacaov()"><br><br>
+                    </div>
+                    ΔV = <input type="text" id="deltavelocidade" value=""><br><br><br>
+                 </div><br>
+                 <!-- Quinta calculadora para cálculo da variação do tempo -->
+                 <div class="calculadorasoma">
+                    <h3>Cálculo da Variação do Tempo</h3><br><br>
+                    Tf = <input type="number" id="deltat" value=""><br><br>
+                    Ti = <input type="number" id="deltat2" value=""><br><br>
+                    <div class="botaocalcular">  <!-- Botão para calcular -->
+                        <input type="button" value="Calcular" onclick="variacaot()"><br><br>
+                    </div>
+                    ΔT = <input type="text" id="deltatempo" value=""><br><br><br>
+                 </div><br>
+                 
+                 <div class="calculadorasoma"><!-- Sexta calculadora para cálculo da aceleração com base em cálculos anteriores -->
+                    <h2>Cálculo da Aceleração</h2><br><br>
+                    <p>Preencha os campos de acordo com os cálculos anteriores:</p><br><br>
+                    ΔV = <input type="number" id="deltavaceleracao" value="deltavelocidade"><br><br>
+                    ΔT = <input type="number" id="deltataceleracao" value="deltatempo"><br><br>
+                    <div class="botaocalcular"><!-- Botão para calcular -->
+                        <input type="button" value="Calcular" onclick="calcularaceleracao()"><br><br>
+                    </div>
+                    a = <input type="text" id="aceleracaodeltavt" value=""><br><br><br> 
+                 </div><br>
+                 <!-- Sétima calculadora para cálculo da força resultante -->
+                 <div class="calculadorasoma">
+                    <h1>Cálculo da Força Resultante</h1><br><br>
+                    <p>Fórmula: </p><br><div class="forcaresultante"><img src="img/foto15.png" alt="formula"></div><br><br>
+                    m = <input type="number" id="massadafr" value=""><br><br>
+                    a = <input type="number" id="aceleracaodafr" value=""><br><br>
+                    <div class="botaocalcular"><!-- Botão para calcular -->
+                        <input type="button" value="Calcular" onclick="forcar()"><br><br>
+                    </div>
+                    F = <input type="text" id="forcaresultante" value=""><br><br><br>
+                 </div><br>
+                    
+            </div>
+            
+         </main>
+    
     </main>
     <footer>
         <div class="leis">

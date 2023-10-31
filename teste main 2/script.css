@@ -164,3 +164,30 @@ footer h3{
 .questoes{
     min-height: 400vh;
 }
+.calculadorasoma{
+    padding: 5px;
+    border: black 2px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* botao de calcular das calculadoras */
+.botaocalcular input{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    color: #399fff;
+    background-color: white;
+    border: 1px solid #349dff;
+}
+/* botao */
+.botaomaismenos input{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+    border: 1px solid black;
+}
+/* fim dos elementos do main */
+
