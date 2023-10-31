@@ -40,7 +40,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_1").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_1").innerHTML = "Resposta errada, a correta é a segunda lei, também conhecida como princípio fundamental da dinâmica, afirma que a força resultante que atua sobre um corpo é igual ao produto de sua massa pela aceleração."
 
         }
         if(resp2.value == "correta"){
@@ -48,7 +48,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_2").innerHTML ="Resposta errada cabaço!"
+            document.getElementById("resp_errada_2").innerHTML ="Resposta errada, pois afirma que a força resultante que atua sobre um corpo é igual ao produto de sua massa pela aceleração.!"
 
         }
         if(resp3.value == "correta"){
@@ -56,7 +56,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_3").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_3").innerHTML = "Resposta errada, a correta é a inércia que diz que um corpo em repouso tende a permanecer em estado de repouso e um corpo em movimento uniforme em uma linha reta, tende a permanecer em movimento constante (a menos que uma força atue sobre ele).!"
 
         }
         if(resp4.value == "correta"){
@@ -64,7 +64,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_4").innerHTML = "Resposta errada, a correta é a segunda lei pois  se aplicarmos força sobre um objeto, ele produzirá um movimento em que a aceleração é proporcional à massa.!"
         }
 
         if(resp4.value == "correta"){
@@ -72,7 +72,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_5").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_5").innerHTML = "Resposta errada, a correta é segunda lei pois  se aplicarmos força sobre um objeto, ele produzirá um movimento em que a aceleração é proporcional à massa. !"
 
         }
 
@@ -81,7 +81,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_6").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_6").innerHTML = "Resposta errada, a correta é letra b pois se um jogador aplicar uma força sobre a bola (chute, cabeçada etc.), ela irá adquirir uma aceleração x. Caso o jogador duplique essa força, a aceleração da bola também será maior.!"
 
         }
 
@@ -90,7 +90,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_7").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_7").innerHTML = "Resposta errada, a resposta correta é a terceira lei de newton pois Durante um chute de um jogador de futebol, a força que a bola exerce sobre o pé do jogador é igual e oposta à força que o pé do jogador exerce sobre a bola. Isso ilustra qual Lei de Newton?!"
 
         }
 
@@ -99,7 +99,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_8").innerHTML = "Resposta errada, pois se um jogador aplicar uma força sobre a bola (chute, cabeçada etc.), ela irá adquirir uma aceleração x. Caso o jogador duplique essa força, a aceleração da bola também será maior.!"
 
         }
 
@@ -108,7 +108,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_9").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_9").innerHTML = "Resposta errada, pois Um objeto em repouso permanece em repouso, ou se estiver em movimento, permanece em movimento com velocidade constante, a menos que uma força externa atue sobre ele.!"
 
         }
 
@@ -117,7 +117,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "Resposta errada cabaço!"
+            document.getElementById("resp_errada_10").innerHTML = "Resposta errada, pois afirma que a força resultante que atua sobre um corpo é igual ao produto de sua massa pela aceleração. !"
 
         }
 
